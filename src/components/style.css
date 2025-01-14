@@ -1,0 +1,134 @@
+.navbar {
+  width: 100%; /* Full width of the screen */
+  background-color: #333; /* Background color of the navbar */
+  color: #fff; /* Text color */
+  font-family: Arial, sans-serif; /* Font style */
+  position: fixed; /* Fixes navbar at the top */
+  top: 0; /* Aligns navbar to the top */
+  left: 0; /* Starts at the left edge */
+  z-index: 1000; /* Stays above other elements */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Horizontal alignment */
+  align-items: center; /* Vertical alignment */
+  max-width: 1200px; /* Optional: Constrain content width */
+  margin: 0 auto; /* Center the content */
+  padding: 10px 20px; /* Inner spacing */
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allows it to expand */
+  max-width: 500px;
+  margin: 0 20px; /* Adds spacing between logo and links */
+}
+
+.navbar-input {
+  flex-grow: 1; /* Allows input to expand */
+  padding: 8px 10px;
+  border: none; /* Removes border */
+  border-radius: 4px 0 0 4px; /* Rounded left corners */
+  outline: none; /* Removes outline */
+}
+
+.navbar-button {
+  padding: 8px 15px;
+  border: none; /* Removes border */
+  border-radius: 0 4px 4px 0; /* Rounded right corners */
+  background-color: #ff5722; /* Button background */
+  color: #fff; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-button:hover {
+  background-color: #e64a19; /* Darker shade on hover */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px; /* Space between links */
+}
+
+.navbar-link {
+  text-decoration: none; /* Removes underline */
+  color: #fff; /* Link color */
+  padding: 5px 10px; /* Adds clickable area */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-link:hover {
+  background-color: #444; /* Background change on hover */
+  color: #ff5722; /* Text color change on hover */
+}
+
+div {
+  display: inline-block; /* Align divs in a row */
+  padding-left: 10px; /* Adds spacing between divs */
+}
+body {
+  margin: 0; /* Remove any default margins */
+  padding-top: 60px; /* Adjust this value to match your navbar height */
+  font-family: Arial, sans-serif; /* Optional: Consistent font styling */
+}
+
+.navbar {
+  height: 90px; /* Set a fixed height for the navbar */
+}
+
+
+
+
+
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: space-around; /* Distribute cards evenly */
+  margin: 20px;
+}
+
+.movie-card {
+  flex: 1 1 calc(25% - 32px); /* 4 cards in a row, with gap compensation */
+  box-sizing: border-box;
+  max-width: calc(25% - 32px); /* Ensure proper alignment */
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.movie-title,
+.movie-rating {
+  text-align: center;
+  margin: 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
